@@ -120,3 +120,6 @@ keymap("n", "[g", "<cmd>lua vim.diagnostic.goto_prev({ float = { border = 'round
 -- Jump 10 lines
 keymap("n", "<leader>j", "10j", { silent = true })
 keymap("n", "<leader>k", "10k", { silent = true })
+
+-- Emmet shortcuts
+keymap("n", ",,", "<C-y>,", { silent = true })
